@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ciclos</title>
+	<script type="text/javascript">
+alert("¡no funciona!")
+function calcular()
+{
+	var numero = Number(t.value);
+    var calculo = 1;
+    var n;
+    // while(n <= numero)
+    // {
+    //     calculo = calculo * n;
+    //     n++;
+    // }
+    for(n=1; n <= numero; n++)
+    {
+        calculo = calculo * n;
+    }
+    c.innerHTML = "<strong>" + calculo + "</strong>";
+}
+var c, t, b;
+function inicio()
+{
+	//alert("esta madre ya sirve");
+	c = document.getElementById("caja");
+	t = document.getElementById("ALEJANDRA");
+	b = document.getElementById("boton");
+
+	b.addEventListener("click", calcular);
+	//var gritos = 10;
+	//while(gritos > 0)
+	//{
+	//	c.innerHTML += "a";
+	//	gritos = gritos - 1;
+	//}
+	//esta es otra parte que se trbako y se borro
+	//c.innerHTML+= "h!";
+	//var numero = 1;
+	//var residuo;
+	//residuo = numero % 2;
+	//c.innerHTML = residuo;
+	//esta es otro ejercicio
+	//var numeros = 1;
+	//var residuo;
+	//while(numeros <= 100)
+	//{
+	//	residuo = numeros % 2;
+	//	if(residuo == 0)
+	//	{
+	//		c.innerHTML += " " + numeros;
+	//	}
+	//	numeros++;
+	//}
+}
+	</script>
+</head>
+<body>
+	<input type="text" id="ALEJANDRA"/>
+	<input type="button" id="boton" value="Ir" />
+	<div id="caja"> aqui estan lo nums pares</div>
+	<div id="caja2">otra caja</div>
+	<script type="text/javascript">
+	inicio();
+	</script>
+</body>
+</html>

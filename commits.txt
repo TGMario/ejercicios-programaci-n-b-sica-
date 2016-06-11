@@ -1,0 +1,38 @@
+
+    agregue portafolio
+
+commit 4a6fd87ac77a96ae0a7054a136dd6aed0b5490e4
+Author: Mario Tlaxqueno <mtlaxquenog@gmail.com>
+Date:   Fri May 27 18:33:15 2016 -0500
+
+    agregue mi descripcion
+
+commit ec4c12953346d8d1227b818c1de6c72f28a48ad8
+Author: Mario Tlaxqueno <mtlaxquenog@gmail.com>
+Date:   Fri May 27 18:25:34 2016 -0500
+
+    Agregue redes sociales
+
+
+Alien1349@Machine1349 MINGW64 ~/desktop/mejorandogit-master (master)
+$ clear
+
+Alien1349@Machine1349 MINGW64 ~/desktop/mejorandogit-master (master)
+$ git log
+commit 1c7058f418876622174b870e176a6926b8e0f032
+Author: Mario Tlaxqueno <mtlaxquenog@gmail.com>
+Date:   Fri May 27 18:40:35 2016 -0500
+
+    agregue portafolio
+
+commit 4a6fd87ac77a96ae0a7054a136dd6aed0b5490e4
+Author: Mario Tlaxqueno <mtlaxquenog@gmail.com>
+Date:   Fri May 27 18:33:15 2016 -0500
+
+    agregue mi descripcion
+
+commit ec4c12953346d8d1227b818c1de6c72f28a48ad8
+Author: Mario Tlaxqueno <mtlaxquenog@gmail.com>
+Date:   Fri May 27 18:25:34 2016 -0500
+
+    Agregue redes sociales
